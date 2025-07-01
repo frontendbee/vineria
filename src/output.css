@@ -403,6 +403,9 @@
   .text-justify {
     text-align: justify;
   }
+  .font-\[InstrumentSerif\] {
+    font-family: InstrumentSerif;
+  }
   .font-instrument {
     font-family: var(--font-instrument);
   }
