@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'vibes';
+  src: url('../src/fonts/Vibes-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'InstrumentSerif';
+  src: url('../src/fonts/InstrumentSerif-Regular.ttf');
+}
+
+
+@import "tailwindcss";
+
+@theme{
+    --font-vibes: vibes, 'sans-serif';
+    --font-instrument: InstrumentSerif, 'sans-serif';
+}
